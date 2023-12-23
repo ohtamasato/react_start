@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  front:
+    build: .
+    tty: true
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app:/usr/src/app
+    command: sh -c 'npm install && npm start dev:mock'
+    image: ohtamasato-react-start-front
+    container_name: ohtamasato-react-start-front
+    environment:
+      TZ: Asia/Tokyo

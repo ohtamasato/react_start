@@ -1,0 +1,19 @@
+@use "@/scss/utils/variables";
+@use "@/scss/utils/mixin";
+
+.header {
+  height: variables.$headerHeightSP;
+  padding: variables.$pagePaddingTop variables.$pagePaddingLeft variables.$pagePaddingBottom variables.$pagePaddingRight;
+  margin-bottom: 24px;
+  background-color: variables.$colorWhite;
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  box-shadow: 0 0 12px 0 #00000014;
+
+  svg {
+
+  }
+}

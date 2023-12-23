@@ -1,0 +1,6 @@
+@use "@/scss/utils/variables";
+@use "@/scss/utils/mixin";
+
+.root {
+  padding: 0 variables.$pagePaddingRight 24px variables.$pagePaddingLeft;
+}

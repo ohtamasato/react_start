@@ -1,0 +1,20 @@
+@use "sass:color";
+
+// テーマカラー
+$colorPrimary: #004ea2;
+$colorFont: #383839;
+$colorBackground: #faf8f7;
+$colorWhite: #ffffff;
+
+// サイトヘッダーの高さ
+$headerHeightSP: 56px;
+
+// ページ余白とコンテンツコンテナサイズ
+$pagePaddingLeft: 14px;
+$pagePaddingRight: 14px;
+$pagePaddingTop: 10px;
+$pagePaddingBottom: 10px;
+
+// 角丸のサイズ種類
+$containerRadius: 12px;
+$smallItemRadius: 4px;

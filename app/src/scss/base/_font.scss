@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+// Noto Sans Japanese (japanese) http://www.google.com/fonts/earlyaccess
+@font-face {
+  font-family: "Noto Sans Japanese";
+  font-style: normal;
+  font-weight: normal;
+  src: url("//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Regular.woff2") format("woff2"), url("//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Regular.woff") format("woff"), url("//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans Japanese";
+  font-style: normal;
+  font-weight: bold;
+  src: url("//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.woff2") format("woff2"), url("//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.woff") format("woff"), url("//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.otf") format("opentype");
+}

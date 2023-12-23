@@ -1,0 +1,13 @@
+@use "@/scss/utils/variables";
+@use "@/scss/utils/mixin";
+
+.helloWorld {
+  @include mixin.UnselectedItem;
+  @include mixin.fontComponentLabel;
+
+  color: variables.$colorPrimary;
+  border-radius: variables.$containerRadius;
+  padding: 4px 8px;
+  text-align: center;
+  vertical-align: middle;
+}

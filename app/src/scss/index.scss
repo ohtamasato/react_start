@@ -1,0 +1,10 @@
+@use "base/reset";
+@use "base/font";
+@use "@/scss/utils/variables";
+
+body {
+  font-family: "Noto Sans Japanese", sans-serif;
+  color: variables.$colorFont;
+  background: variables.$colorBackground;
+  //position: relative;
+}
