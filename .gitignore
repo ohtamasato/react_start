@@ -10,6 +10,9 @@ workspace.*
 # 外部パッケージや依存ファイル
 /app/node_modules
 
+# ビルドファイル
+/app/public/assets/app.js
+
 # 環境ファイル
 .env.local
 .env.development.local
