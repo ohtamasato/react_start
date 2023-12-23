@@ -2,6 +2,8 @@
 
 [REACT](https://react.dev/)を動かしてみるだけのリポジトリです。
 
+https://react-start-seven.vercel.app/
+
 ## 通常起動
 
 ```shell
